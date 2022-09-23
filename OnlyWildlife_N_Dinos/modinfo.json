@@ -1,0 +1,19 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "only_wildlife_n_dinos",
+    "name": "Only Wildlife N Dinos",
+    "authors": [ "Ahegil", "Jurassiced", "Bene Hrethgir" ],
+    "maintainers": [ "Bene Hrethgir" ],
+    "description": "Removes all monsters from the game, save for those in the \"REPTILE\", \"DINOSAUR\" and \"WILDLIFE\" category.",
+    "category": "content",
+    "dependencies": [ "dda" ],
+    "version": "<color_light_green>V0.90 - 09/22/2022</color>",
+    "obsolete": false
+  },
+  {
+    "type": "MONSTER_WHITELIST",
+    "mode": "EXCLUSIVE",
+    "categories": [ "WILDLIFE", "REPTILE", "DINOSAUR" ]
+  }
+]
